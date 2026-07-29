@@ -4,3 +4,5 @@ Autonomous ground rover (STM32F411 + ESP32-S3) with a homemade LIDAR sensor, enc
 currently motors and encoders interfaced with:
 https://youtube.com/shorts/xxfjAQOBqmc?si=hJcHVLtkVV-ht2d
 
+and have designed and 3d printed a socket for back ball baring wheel
+
