@@ -22,7 +22,7 @@ int analog_y = 0;
 bool aalog_but = false;
 
 
-int32_t data = 67;
+int32_t data;
 
 RF24 radio(CE_PIN, CSN_PIN);
 uint8_t address[6] = "1Node";
@@ -108,15 +108,15 @@ int raw_x = analogRead(Analog_X_pin);
 tank(x,y);
 
 
-int leftPWM = (int)(fabs(leftPower) * 255);
-int rightPWM = (int)(fabs(rightPower) * 255);
+int leftPWM  = (int8_t)(leftPower * 127.0);
+int rightPWM = (int8_t)(rightPower * 127.0);
 
 
-if (leftPWM < 20){
+if (leftPWM < 20 && leftPWM > -20){
   leftPWM = 0;
 
 }
-if (rightPWM < 20){
+if (rightPWM < 20 && rightPWM > - 20){
   rightPWM = 0;
 
 }
@@ -126,8 +126,8 @@ Serial.println(leftPWM);
 Serial.println(rightPWM);
 
 uint8_t motorData[2];
-  motorData[0] = (uint8_t)leftPWM;
-  motorData[1] = (uint8_t)rightPWM;
+  motorData[0] = (int8_t)leftPWM;
+  motorData[1] = (int8_t)rightPWM;
 // conver to 
 
  bool motor = radio.write(motorData, sizeof(motorData));
