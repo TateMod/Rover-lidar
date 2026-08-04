@@ -9,3 +9,5 @@ and have designed and 3d printed a socket for 20mm back ball baring wheel with 0
 radio modues implments arcade drive controls that is send over nRF24L01 to the esp witch then sends to stm32 via uart sending direct pwm values for each motor
 
 currently have joystick directional control over the motors allwoing backwards and  forwards and turn control
+currently designing base:
+<img width="747" height="380" alt="image" src="https://github.com/user-attachments/assets/031e9d2e-b13d-4e56-95f7-da4fceb2998e" />
