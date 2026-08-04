@@ -12,4 +12,7 @@ currently have joystick directional control over the motors allwoing backwards a
 currently designing base:
 <img width="747" height="380" alt="image" src="https://github.com/user-attachments/assets/031e9d2e-b13d-4e56-95f7-da4fceb2998e" />
 
+<img width="1472" height="680" alt="image" src="https://github.com/user-attachments/assets/7493af66-1782-4187-95f3-8ee24d875ccb" />
+
+<img width="707" height="516" alt="image" src="https://github.com/user-attachments/assets/c32e5528-ad04-415c-be72-a3493e0053bb" />
 
