@@ -11,3 +11,7 @@ radio modues implments arcade drive controls that is send over nRF24L01 to the e
 currently have joystick directional control over the motors allwoing backwards and  forwards and turn control
 currently designing base:
 <img width="747" height="380" alt="image" src="https://github.com/user-attachments/assets/031e9d2e-b13d-4e56-95f7-da4fceb2998e" />
+<img width="1537" height="792" alt="image" src="https://github.com/user-attachments/assets/449c1530-063e-442c-8c7f-489e9c955abb" />
+<img width="826" height="592" alt="image" src="https://github.com/user-attachments/assets/3d8868b2-aee9-4851-a088-d4759470f9f0" />
+
+
