@@ -139,10 +139,6 @@ uint8_t motorData[2];
 
    
 
-
-
- 
-
 delay(10);
 
 
