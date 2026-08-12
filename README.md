@@ -8,7 +8,10 @@ https://youtube.com/shorts/xxfjAQOBqmc?si=hJcHVLtkVV-ht2d
 
 radio modues implments arcade drive controls that is send over nRF24L01 to the esp witch then sends to stm32 via uart sending direct pwm values for each motor
 
-currently have joystick directional control over the motors allwoing backwards and  forwards and turn control
+currently:
+testing odometry from encoder and imus and its accuracy 
+wrote a MPU6050 driver from scratch scaled accell to 2-+g and gyro 250/s at 44hz(accel), 42hz(gyro)
+
 # forward back:
 
 https://youtu.be/2wB4GNMTBnc?si=adaVEpXKmh2rM6IY
